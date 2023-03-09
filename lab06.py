@@ -15,7 +15,7 @@ def main():
             password = str(input('Please enter your password to encode: '))
             encodedpassword = encode(password)
             print("Your password has been encoded and stored!\n")
-        elif userOption == 2:
+        elif useroption == 2:
             print("The encoded password is " + encodedpassword + ", and the original password is " + password + ".")
         elif useroption == 3:
             break
